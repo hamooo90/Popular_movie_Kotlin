@@ -24,7 +24,7 @@ A simple Movie database app that uses TheMovieDb api to show trending movies, ab
 [Open app in appetize.io](https://appetize.io/app/ "Popular movie")
 
 ## How to use
-To build this source code in your Android studio you need to put your TheMovieDB Api key in gradle.properties
+To build this source code in your Android studio you need to put your Api key for TheMovieDB in gradle.properties
 
     #tmdb_api_key=123456789101112131415
 
