@@ -16,12 +16,6 @@
             app:titleTextColor="@color/white"
             android:id="@+id/tool_bar_home"
             app:menu="@menu/toolbar_menu">
-<!--            <com.google.android.material.textview.MaterialTextView-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:textColor="@color/white"-->
-<!--                android:textAppearance="@style/TextAppearance.MaterialComponents.Headline5"-->
-<!--                android:text="Popular movies"/>-->
         </com.google.android.material.appbar.MaterialToolbar>
     </com.google.android.material.appbar.AppBarLayout>
 
