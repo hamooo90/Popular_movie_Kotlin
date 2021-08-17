@@ -21,7 +21,7 @@ A simple Movie database app that uses TheMovieDb api to show trending movies, ab
 <img src="demo.gif" width="300" />
 
 ## Online Emulator
-[Open app in appetize.io](https://appetize.io/app/ "Popular movie")
+[Open app in appetize.io](https://appetize.io/app/gb6hfzdpjp3zq7btapwzc4e57m "Popular movie")
 
 ## How to use
 To build this source code in your Android studio you need to put your Api key for TheMovieDB in gradle.properties
