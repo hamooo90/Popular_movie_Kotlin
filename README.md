@@ -1,12 +1,12 @@
 # Description 
-A simple Movie database app that uses TheMovieDb api to show trending movies, ability to search all the movies, view details of a movie and view cast info and pictures.
+A simple Movie database app that uses TheMovieDb api to show trending movies, search all the movies, view details of a movie and view cast info and pictures.
 
 ## Architecture 
 - Written in Kotlin
 - MVVM architectural pattern
 - Clean code
 - Single activity
-- Hilt for dependency injection
+- Dagger Hilt for dependency injection
 - Retrofit for api call
 - RxJava3 for network call
 - Moshi to parse Json to object
