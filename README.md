@@ -11,7 +11,7 @@ A simple Movie database app that uses TheMovieDb api to show trending movies, se
 - RxJava3 for network call
 - Moshi to parse Json to object
 - Glide for image loading
-- uses Jetpack componnent
+- Uses Jetpack componnent
     - LiveData
     - ViewModel
     - Navigation
