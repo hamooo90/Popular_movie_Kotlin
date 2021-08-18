@@ -51,9 +51,9 @@ class HomeFragment : Fragment(R.layout.home_fragment) {
         )
 
         movieAdapter.addLoadStateListener { state ->
-            swipe_refresh_home.isRefreshing = state.source.refresh is LoadState.Loading
-            error_container.isVisible = state.source.refresh is LoadState.Error
-            recycler_view_movies.isVisible = !error_container.isVisible
+            swipe_refresh_home?.isRefreshing = state.source.refresh is LoadState.Loading
+            error_container?.isVisible = state.source.refresh is LoadState.Error
+            recycler_view_movies?.isVisible = !error_container.isVisible
 
             if (state.source.refresh is LoadState.Error) {
                 btn_retry_error.setOnClickListener {
