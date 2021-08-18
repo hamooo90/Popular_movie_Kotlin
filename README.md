@@ -26,7 +26,7 @@ A simple Movie database app that uses TheMovieDb api to show trending movies, se
 ## How to use
 To build this source code in your Android studio you need to put your Api key for TheMovieDB in gradle.properties
 
-    #tmdb_api_key=123456789101112131415
+    tmdb_api_key=123456789101112131415
 
 # Licence
 
