@@ -13,3 +13,6 @@
 .externalNativeBuild
 .cxx
 local.properties
+app/bin/.project
+app/.project
+.project
