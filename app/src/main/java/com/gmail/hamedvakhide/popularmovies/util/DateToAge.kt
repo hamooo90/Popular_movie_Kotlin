@@ -4,7 +4,7 @@ import java.text.ParseException
 import java.text.SimpleDateFormat
 import java.util.*
 
-class DateToAge {
+object DateToAge {
 
     fun getAge(dobString: String): String {
         var date: Date? = null
