@@ -47,7 +47,7 @@ class AboutFragment : Fragment(R.layout.fragment_about) {
                     text_view_birth_place_about.text = cast?.placeOfBirth
                     text_view_department_about.text = cast?.knownForDepartment
                     text_view_age_about.text =
-                        cast?.birthday?.let { it1 -> DateToAge().getAge(it1) }
+                        cast?.birthday?.let { it1 -> DateToAge.getAge(it1) }
                     text_view_known_as_about.text = cast?.alsoKnownAs?.joinToString(", ")
                     cast?.deathday.let { deathDay ->
                         text_view_deathday_about.text = deathDay
